@@ -1,0 +1,14 @@
+{
+    "plugins": ["functional"],
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:functional/external-recommended",
+        "plugin:functional/recommended"
+    ],
+    "rules": {
+        "functional/immutable-data": "error"
+    }
+}
